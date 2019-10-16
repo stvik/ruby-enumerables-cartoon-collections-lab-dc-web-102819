@@ -11,7 +11,8 @@ end
 
 def long_planeteer_calls(array)# code an argument here
   # Your code here
-  new_arr = array.any?{|word| 
+  value = array.any?{|word| word.length > 4}
+  value
   
 end
 
